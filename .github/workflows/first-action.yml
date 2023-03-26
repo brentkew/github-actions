@@ -1,0 +1,10 @@
+name: First Workflow Action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Print Greating
+        run:  echo "Hello to the first Github action"
+      - name: Print Goodbay
+        run:  echo "Done good by"
